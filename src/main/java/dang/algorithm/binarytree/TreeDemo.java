@@ -1,7 +1,11 @@
 package dang.algorithm.binarytree;
 
 public class TreeDemo {
+	private static int x = 100;
 	public static void main(String[] args) {
+
+	}
+	public static void main2(String[] args) {
 		MyBinaryTree tree = new MyBinaryTree();
 		
 		MyNode n1 = new MyNode(new MyBean(5, "bean5"));

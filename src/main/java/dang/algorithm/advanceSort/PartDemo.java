@@ -1,16 +1,42 @@
 package dang.algorithm.advanceSort;
 
-public class PartDemo {
-	private int max = 2;
+import java.util.ArrayList;
 
-	public void say(int max) {
-		System.out.println("类属型 max = " + this.max);
-		System.out.println("方法内 局部属性 max = " + max);
+public class PartDemo {
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		String[] strArray = new String[] { "red", "yellow", "Black", "Green" };
+		String t = null;
+		System.out.println("排序前");
+		for (String s : strArray)
+			System.out.print(s + "\t");
+		int i, j, k;
+		for (i = 0; i < strArray.length - 1; i++) {
+			k = i;
+			for (j = i + 1; j < strArray.length; j++) {
+				Character c1 = Character.valueOf(strArray[j].charAt(0));
+				Character c2 = Character.valueOf(strArray[k].charAt(0));
+				if (c1.compareTo(c2) < 0)
+					k = j;
+			}
+			if (i != k) {
+				t = strArray[i];
+				strArray[i] = strArray[k];
+				strArray[k] = t;
+			}
+		}
+		System.out.println("\n排序后:");
+		for (String s : strArray)
+			System.out.print(s + "\t");
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		PartDemo demo = new PartDemo();
-		demo.say(10);
+	public static double fee(double x) {
+		if (x <= 3) {
+			return 5;
+		} else if (x > 3 && x <= 30.5) {
+			return 5 + (x - 3) * 2;
+		} else {
+			return 50;
+		}
 	}
 }
