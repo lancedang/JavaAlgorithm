@@ -1,5 +1,8 @@
 package dang.algorithm.binarytree;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MyBinaryTree {
 	private MyNode rootNode;
 
@@ -44,8 +47,7 @@ public class MyBinaryTree {
 	}
 
 	/**
-	 * current向下一直遍历，直到找到或节点为空，因为初始化树的时候是二叉搜索树，
-	 * 在寻找的时候，类似于二分查找的感觉
+	 * current向下一直遍历，直到找到或节点为空，因为初始化树的时候是二叉搜索树， 在寻找的时候，类似于二分查找的感觉
 	 * 
 	 * @param key
 	 * @return
@@ -118,6 +120,7 @@ public class MyBinaryTree {
 
 	/**
 	 * 递归是消除while循环的，故一般没有while循环字句
+	 * 
 	 * @param node
 	 */
 	public void preTraverse(MyNode node) {
@@ -170,6 +173,37 @@ public class MyBinaryTree {
 			current = current.getRightMyNode();
 		}
 		return pre;
+	}
+
+	/**
+	 * 层次遍历二叉树
+	 * 
+	 * @param root
+	 *            根节点
+	 */
+	public void levelVisit(MyNode root) {
+		List<MyNode> auxi = new ArrayList<MyNode>();
+		auxi.add(root);
+		int current = 0; // 表示list中每一层 遍历的起始位置
+		int last = 1;// 表示list中每一层遍历的结束位置，初始时list中只有一个值(第一层)
+
+		while (current < auxi.size()) {// 内部循环每次结束，current停在每层结束位置，无新元素添加为判断条件
+			last = auxi.size();
+			while (current < last) {// 遍历每一层，while结束实际已遍历完该层元素，同时也将下层元素添加到list
+				auxi.get(current).show();
+				MyNode left = auxi.get(current).getLeftMyNode();
+				MyNode right = auxi.get(current).getRightMyNode();
+
+				if (left != null)
+					auxi.add(left);// 把其下的左右节点(即下层节点)放入list中
+				if (right != null)
+					auxi.add(right);
+
+				current++; // 遍历该层下一个
+
+			}
+		}
+
 	}
 
 }

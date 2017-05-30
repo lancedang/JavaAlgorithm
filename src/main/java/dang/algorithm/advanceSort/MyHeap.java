@@ -1,8 +1,7 @@
 package dang.algorithm.advanceSort;
 
-import java.util.concurrent.SynchronousQueue;
-
-import javax.xml.transform.Templates;
+import java.util.Arrays;
+import java.util.Comparator;
 
 /**
  * 用堆实现优先级队列，默认树顶是最大值
@@ -143,6 +142,12 @@ public class MyHeap {
 		for(int i=0; i<num; i++) {
 			System.out.print(heap.remove() + " ");
 		}
+		
+		Arrays arrays;
+		Integer integer;
+		String string;
+		Comparable<String> comparable;
+		Comparator<String> comparator;
 		
 	}
 }
