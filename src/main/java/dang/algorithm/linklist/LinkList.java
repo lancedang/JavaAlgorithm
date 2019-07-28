@@ -1,5 +1,7 @@
 package dang.algorithm.linklist;
 
+import java.lang.reflect.Constructor;
+
 /**
 * LinkList is just like a container which contains many link nodes
 * 
@@ -21,7 +23,11 @@ public class LinkList {
 		first = null;
 		size = 0;
 	}
-	
+
+	public LinkList(Link first) {
+		this.first = first;
+	}
+
 	/**
 	* LinkList insert into the first position every time
 	* @param the new link needed to insert
