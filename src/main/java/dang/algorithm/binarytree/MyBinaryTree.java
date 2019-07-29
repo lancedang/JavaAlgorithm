@@ -118,6 +118,7 @@ public class MyBinaryTree {
 		}
 	}
 
+
 	/**
 	 * 递归是消除while循环的，故一般没有while循环字句
 	 * 
