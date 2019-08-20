@@ -126,21 +126,24 @@ public class BinaryTreeTraverseUtil {
     public static void preTransverseNoRec2(MyNode root) {
 
         Stack<MyNode> stack = new Stack<MyNode>();
-        //先入栈
+        //root先入栈
         stack.push(root);
         MyNode node = null;
 
         while (!stack.empty()) {
 
+            //root再出栈
             node = stack.pop();
 
             node.show();
 
+            //根据栈的性质，先把右子树入栈
             MyNode rightMyNode = node.getRightMyNode();
             if (rightMyNode != null) {
                 stack.push(rightMyNode);
             }
 
+            //然后把左子树入栈，后入栈的先访问
             MyNode leftMyNode = node.getLeftMyNode();
             if (leftMyNode != null) {
                 stack.push(leftMyNode);
