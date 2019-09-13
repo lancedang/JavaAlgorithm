@@ -168,7 +168,7 @@ public class BinaryTreeTraverseUtil {
     }
 
     /**
-     * 层次遍历
+     * 题目：层次遍历
      * 思想：运用queue，先把根节点放进去，然后取出根节点，同时将左右节点（非空情况）放进queue
      *
      * @param node
@@ -204,30 +204,7 @@ public class BinaryTreeTraverseUtil {
 
     }
 
-    /**
-     * 思想：一直往队列里存入，中间不取出，最后一次性取出整个队列
-     *
-     * @param root
-     */
-    public static void levelTransverse2(MyNode root) {
 
-        if (root == null) {
-            return;
-        }
-
-        Queue<MyNode> queue = new LinkedList<MyNode>();
-
-        queue.add(root);
-
-        MyNode leftMyNode = root.getLeftMyNode();
-        MyNode rightMyNode = root.getRightMyNode();
-
-        while (leftMyNode != null || rightMyNode != null) {
-            queue.add(leftMyNode);
-            queue.add(rightMyNode);
-        }
-
-    }
 
 
     /**
@@ -251,7 +228,7 @@ public class BinaryTreeTraverseUtil {
     }
 
     /**
-     * 获取二叉树节点个数
+     * 题目：获取二叉树节点个数
      * 思想：递归，分别获取左右子树节点个数，整棵树的节点个数等于左右子树节点个数之和 + 1
      * 递归边界：树为空时，节点个数返回 0
      */
@@ -268,10 +245,11 @@ public class BinaryTreeTraverseUtil {
     }
 
     /**
-     * 从树中找到目的节点
+     * 题目：从树中找到目的节点
      * 思想：递归，首先比较root是不是相等，若不是则分别从左右子树中查找目的节点
      *
-     * @param x
+     * @param x 所要查找的树节点
+     * @param root 目的二叉树
      * @return
      */
     public static MyNode findKey(int x, MyNode root) {
