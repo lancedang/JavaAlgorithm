@@ -1,10 +1,19 @@
 package dang.algorithm.binarytree;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Data
-public class MyNode2 {
+@NoArgsConstructor
+@AllArgsConstructor
+public class MySimpleNode {
 
 	private int value;
-	private MyNode2 leftMyNode;
-	private MyNode2 rightMyNode;
-	
+	private MySimpleNode leftMyNode;
+	private MySimpleNode rightMyNode;
+
+	public MySimpleNode(int value) {
+		this.value = value;
+	}
 }

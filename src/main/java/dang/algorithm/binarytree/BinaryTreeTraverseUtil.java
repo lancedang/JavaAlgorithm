@@ -1,6 +1,5 @@
 package dang.algorithm.binarytree;
 
-import java.sql.Statement;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -352,10 +351,67 @@ public class BinaryTreeTraverseUtil {
                 }
             }
 
-
-
-
         }
     }
+
+    /**
+     * 判断二叉树是否为二叉搜索树
+     * 思路：
+     * 1）递归，先判断当前root，左，右子树三者是否满足 左<root<右
+     * 2）然后，分别判断左,右子树是否满足上述1），在此基础上，判断左边子树最大值是否<root，右边最小值是否>root
+     *
+     * @param myNode
+     * @return
+     */
+    public  static  boolean isBinaryFindTree(MySimpleNode myNode) {
+        if (myNode != null) {
+            MySimpleNode leftMyNode = myNode.getLeftMyNode();
+            MySimpleNode rightMyNode = myNode.getRightMyNode();
+
+            //1）左子树最大值要小于root值
+            boolean leftTreeMaxNodeSmallerThanRoot = leftMyNode.getRightMyNode() == null || leftMyNode.getRightMyNode().getValue() < myNode.getValue();
+            //2）右子树最小值要大于root值
+            boolean rightTreeMinNodeBiggerThanRoot = rightMyNode.getLeftMyNode() == null || rightMyNode.getLeftMyNode().getValue() > myNode.getValue();
+
+            //直接左节点<root<直接右节点 && 1） && 2）判断
+            if ((leftMyNode == null || (leftMyNode.getValue() <= myNode.getValue() &&
+                    leftTreeMaxNodeSmallerThanRoot)) && (rightMyNode == null || (rightMyNode.getValue() >= myNode.getValue() && rightTreeMinNodeBiggerThanRoot)) ) {
+                return isBinaryFindTree(leftMyNode) && isBinaryFindTree(rightMyNode);
+            }else {
+                return false;
+            }
+
+        } else {
+            return true;
+        }
+    }
+
+    public static void main(String[] args) {
+
+
+        MySimpleNode root = new MySimpleNode(100);
+        MySimpleNode left1 = new MySimpleNode(50);
+        MySimpleNode right2 = new MySimpleNode(150);
+
+        root.setLeftMyNode(left1);
+        root.setRightMyNode(right2);
+
+        MySimpleNode left1_left2 = new MySimpleNode(20);
+        MySimpleNode left1_right2 = new MySimpleNode(270);
+
+        left1.setLeftMyNode(left1_left2);
+        left1.setRightMyNode(left1_right2);
+
+        MySimpleNode right1_left2 = new MySimpleNode(120);
+        MySimpleNode right1_right2 = new MySimpleNode(200);
+
+        right2.setLeftMyNode(right1_left2);
+        right2.setRightMyNode(right1_right2);
+
+
+        System.out.println(isBinaryFindTree(root));
+
+    }
+
 
 }

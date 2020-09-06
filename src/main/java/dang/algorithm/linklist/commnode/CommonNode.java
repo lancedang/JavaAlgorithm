@@ -15,7 +15,6 @@ public class CommonNode {
         return p1;
     }
 
-
     public static void main(String[] args) {
         Link link1 = new Link(1, 1);
         Link link2 = new Link(3, 1);

@@ -1,5 +1,7 @@
 package dang.algorithm.advanceSort;
 
+import java.util.LinkedList;
+
 public class PartitionUtil2 {
 
     public static int partition(int[] array, int left, int right, int pivot) throws Exception {
@@ -59,5 +61,7 @@ public class PartitionUtil2 {
         quickSort(array, index + 1, right);
 
     }
+
+
 
 }
