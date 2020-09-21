@@ -1,4 +1,4 @@
-package dang.algorithm.string;
+package dang.algorithm.xiaomi;
 
 import java.util.LinkedList;
 import java.util.List;
