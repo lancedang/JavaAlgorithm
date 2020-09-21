@@ -364,6 +364,10 @@ public class BinaryTreeTraverseUtil {
         }
     }
 
+    public void centerT(MySimpleNode mySimpleNode) {
+
+    }
+
     public static void main(String[] args) {
 
 
