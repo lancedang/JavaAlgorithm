@@ -86,6 +86,6 @@ public class TreeDemo {
         if (key != null) {
             key.show();
         }
-        //BinaryTreeTraverseUtil.preTransverseNoRec2(t1);
+        BinaryTreeTraverseUtil.preTransverseNoRec2(t1);
     }
 }

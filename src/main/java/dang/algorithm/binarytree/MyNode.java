@@ -5,7 +5,11 @@ public class MyNode{
 	private MyBean bean;
 	private MyNode leftMyNode;
 	private MyNode rightMyNode;
-	
+
+	public MyNode() {
+
+	}
+
 	public MyNode(MyBean bean) {
 		this.bean = bean;
 		leftMyNode = rightMyNode = null;

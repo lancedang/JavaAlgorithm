@@ -93,6 +93,7 @@ public class BinaryTreeTraverseUtil {
 
     }
 
+    @Deprecated
     public static void preTransverseNoRec(MyNode root) {
 
         Deque<MyNode> de = new LinkedList<MyNode>();
@@ -114,12 +115,6 @@ public class BinaryTreeTraverseUtil {
             }
 
         }
-    }
-
-    public  static void preNonRec01(MyNode root) {
-        //先把根入栈，再出栈，再把右子树入栈，再把左子树入栈
-        Stack<MyNode> stack = new Stack<MyNode>();
-
     }
 
     public static void preTransverseNoRec2(MyNode root) {
@@ -317,7 +312,7 @@ public class BinaryTreeTraverseUtil {
 
             while (!stack.empty()) {
                 MyNode myNode = stack.pop();
-
+                System.out.print(myNode.getMyBean().getId() + ",");
                 MyNode rightMyNode = myNode.getRightMyNode();
                 if (rightMyNode != null) {
                     stack.push(rightMyNode);
@@ -391,9 +386,28 @@ public class BinaryTreeTraverseUtil {
         right2.setRightMyNode(right1_right2);
 
 
-        System.out.println(isBinaryFindTree(root));
+        //System.out.println(isBinaryFindTree(root));
+        //preTransverseNoRec(turnSimple2My(root));
+//        preTransverseNoRec2();
+        MyNode myNode = turnSimple2My(root);
+        //pre01(myNode);
+        preTransverse(myNode);
+
 
     }
 
+    /**
+     * @param simpleNode
+     * @return
+     */
+    public static MyNode turnSimple2My(MySimpleNode simpleNode) {
+        MyNode myNode = new MyNode();
+        if (simpleNode != null) {
+            myNode.setMyBean(new MyBean(simpleNode.getValue(), String.valueOf(simpleNode.getValue())));
+            myNode.setLeftMyNode(turnSimple2My(simpleNode.getLeftMyNode()));
+            myNode.setRightMyNode(turnSimple2My(simpleNode.getRightMyNode()));
+        }
+        return myNode;
+    }
 
 }
