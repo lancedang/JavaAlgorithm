@@ -5,6 +5,8 @@ import dang.algorithm.linklist.LinkList;
 import java.util.Stack;
 
 public class TreeCenterSort01 {
+    private int value;
+
     public static void centralSort(MySimpleNode root) {
         MySimpleNode current = root;
         Stack<MySimpleNode> stack = new Stack<MySimpleNode>();
@@ -18,7 +20,7 @@ public class TreeCenterSort01 {
             }
 
             MySimpleNode leftEnd = stack.pop();
-            System.out.println(leftEnd.getValue());
+            System.out.println(leftEnd);
             MySimpleNode leftEndRightMyNode = leftEnd.getRightMyNode();
 
             current = leftEndRightMyNode;
