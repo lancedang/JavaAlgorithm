@@ -8,13 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/InverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/SumInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/HuiWen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/xiaomi/SerializeTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/xiaomi/SerializeTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +244,20 @@
       <recent name="dang.algorithm.binarytree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InverseNumber">
+  <component name="RunManager" selected="Application.HuiWen">
+    <configuration name="HuiWen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.HuiWen" />
+      <module name="JavaAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dang.algorithm.leecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.InverseNumber" />
       <module name="JavaAlgorithm" />
@@ -265,19 +273,6 @@
     </configuration>
     <configuration name="SerializeTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dang.algorithm.xiaomi.SerializeTree" />
-      <module name="JavaAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dang.algorithm.xiaomi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stack2CreateQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.xiaomi.Stack2CreateQueue" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -317,11 +312,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HuiWen" />
         <item itemvalue="Application.InverseNumber" />
         <item itemvalue="Application.SumInArray" />
         <item itemvalue="Application.SerializeTree" />
         <item itemvalue="Application.TreePreSort01" />
-        <item itemvalue="Application.Stack2CreateQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +362,7 @@
       <workItem from="1601130909081" duration="23863000" />
       <workItem from="1601798653947" duration="7117000" />
       <workItem from="1634178758286" duration="4551000" />
-      <workItem from="1634372948875" duration="8176000" />
+      <workItem from="1634372948875" duration="13258000" />
     </task>
     <task id="LOCAL-00001" summary="添加两个链表相加并进位算法">
       <created>1564303771818</created>
@@ -507,6 +502,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/xiaomi/SerializeTree.java</url>
           <line>89</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/HuiWen.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
