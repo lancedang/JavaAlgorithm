@@ -7,9 +7,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/dang/algorithm/binarytree/MySimpleNode.java" line="15" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/HuiWen.java" afterDir="false" />
+    <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="添加字符串数组最长公共前缀">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/ValidBracket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/LongestCommonPre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/LongestCommonPre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +245,7 @@
       <recent name="dang.algorithm.binarytree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HuiWen">
+  <component name="RunManager" selected="Application.ValidBracket">
     <configuration name="HuiWen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.HuiWen" />
       <module name="JavaAlgorithm" />
@@ -271,12 +272,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializeTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.xiaomi.SerializeTree" />
+    <configuration name="LongestCommonPre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.LongestCommonPre" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dang.algorithm.xiaomi.*" />
+          <option name="PATTERN" value="dang.algorithm.leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -297,12 +298,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreePreSort01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.binarytree.TreePreSort01" />
+    <configuration name="ValidBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.ValidBracket" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dang.algorithm.binarytree.*" />
+          <option name="PATTERN" value="dang.algorithm.leecode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,11 +313,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidBracket" />
+        <item itemvalue="Application.LongestCommonPre" />
         <item itemvalue="Application.HuiWen" />
         <item itemvalue="Application.InverseNumber" />
         <item itemvalue="Application.SumInArray" />
-        <item itemvalue="Application.SerializeTree" />
-        <item itemvalue="Application.TreePreSort01" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +363,8 @@
       <workItem from="1601130909081" duration="23863000" />
       <workItem from="1601798653947" duration="7117000" />
       <workItem from="1634178758286" duration="4551000" />
-      <workItem from="1634372948875" duration="13258000" />
+      <workItem from="1634372948875" duration="13677000" />
+      <workItem from="1634439644139" duration="5435000" />
     </task>
     <task id="LOCAL-00001" summary="添加两个链表相加并进位算法">
       <created>1564303771818</created>
@@ -413,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600767036972</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加字符串数组最长公共前缀">
+      <created>1634443178592</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634443178592</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -463,7 +472,8 @@
     <MESSAGE value="完成快速排序方法" />
     <MESSAGE value="添加两个链表求第一个公共节点" />
     <MESSAGE value="拼多多：添加求4个数组之和等于给定值，后缀表达式计算" />
-    <option name="LAST_COMMIT_MESSAGE" value="拼多多：添加求4个数组之和等于给定值，后缀表达式计算" />
+    <MESSAGE value="添加字符串数组最长公共前缀" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加字符串数组最长公共前缀" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -507,6 +517,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/HuiWen.java</url>
           <line>17</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/HuiWen.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
