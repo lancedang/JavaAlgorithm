@@ -7,10 +7,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/dang/algorithm/binarytree/MySimpleNode.java" line="15" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="添加字符串数组最长公共前缀">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/ValidBracket.java" afterDir="false" />
+    <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/MergeLinkList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/LongestCommonPre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/LongestCommonPre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_291/src.zip!/java/util/Stack.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -237,7 +239,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -245,7 +247,7 @@
       <recent name="dang.algorithm.binarytree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidBracket">
+  <component name="RunManager" selected="Application.MergeLinkList">
     <configuration name="HuiWen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.HuiWen" />
       <module name="JavaAlgorithm" />
@@ -285,8 +287,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.SumInArray" />
+    <configuration name="MergeLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.MergeLinkList" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -313,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeLinkList" />
         <item itemvalue="Application.ValidBracket" />
         <item itemvalue="Application.LongestCommonPre" />
         <item itemvalue="Application.HuiWen" />
         <item itemvalue="Application.InverseNumber" />
-        <item itemvalue="Application.SumInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +366,10 @@
       <workItem from="1601798653947" duration="7117000" />
       <workItem from="1634178758286" duration="4551000" />
       <workItem from="1634372948875" duration="13677000" />
-      <workItem from="1634439644139" duration="5435000" />
+      <workItem from="1634439644139" duration="6178000" />
+      <workItem from="1634522878084" duration="20000" />
+      <workItem from="1635128787399" duration="736000" />
+      <workItem from="1635130632072" duration="6270000" />
     </task>
     <task id="LOCAL-00001" summary="添加两个链表相加并进位算法">
       <created>1564303771818</created>
@@ -422,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634443178592</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加有效括号判断">
+      <created>1634445280591</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634445280591</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -473,7 +485,8 @@
     <MESSAGE value="添加两个链表求第一个公共节点" />
     <MESSAGE value="拼多多：添加求4个数组之和等于给定值，后缀表达式计算" />
     <MESSAGE value="添加字符串数组最长公共前缀" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加字符串数组最长公共前缀" />
+    <MESSAGE value="添加有效括号判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加有效括号判断" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -522,6 +535,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/HuiWen.java</url>
           <line>13</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/MergeLinkList.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
