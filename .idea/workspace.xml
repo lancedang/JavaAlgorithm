@@ -8,8 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/MergeLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaAlgorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaAlgorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,22 +250,9 @@
       <recent name="dang.algorithm.binarytree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeLinkList">
+  <component name="RunManager" selected="Application.RemoveDuplicate">
     <configuration name="HuiWen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.HuiWen" />
-      <module name="JavaAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dang.algorithm.leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.InverseNumber" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -300,6 +290,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.RemoveDuplicate" />
+      <module name="JavaAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dang.algorithm.leecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.ValidBracket" />
       <module name="JavaAlgorithm" />
@@ -315,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicate" />
         <item itemvalue="Application.MergeLinkList" />
         <item itemvalue="Application.ValidBracket" />
         <item itemvalue="Application.LongestCommonPre" />
         <item itemvalue="Application.HuiWen" />
-        <item itemvalue="Application.InverseNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +372,13 @@
       <workItem from="1634439644139" duration="6178000" />
       <workItem from="1634522878084" duration="20000" />
       <workItem from="1635128787399" duration="736000" />
-      <workItem from="1635130632072" duration="6270000" />
+      <workItem from="1635130632072" duration="8028000" />
+      <workItem from="1635151326734" duration="1445000" />
+      <workItem from="1635772493272" duration="2141000" />
+      <workItem from="1635942275178" duration="1451000" />
+      <workItem from="1649748302029" duration="682000" />
+      <workItem from="1650532244514" duration="591000" />
+      <workItem from="1650629708584" duration="3988000" />
     </task>
     <task id="LOCAL-00001" summary="添加两个链表相加并进位算法">
       <created>1564303771818</created>
@@ -434,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634445280591</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="合并2个有序列表">
+      <created>1635147048097</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1635147048097</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -478,6 +494,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加两个链表相加并进位算法" />
     <MESSAGE value="写二叉树的遍历，算法为啥这么难啊，妈的" />
@@ -486,7 +514,8 @@
     <MESSAGE value="拼多多：添加求4个数组之和等于给定值，后缀表达式计算" />
     <MESSAGE value="添加字符串数组最长公共前缀" />
     <MESSAGE value="添加有效括号判断" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加有效括号判断" />
+    <MESSAGE value="合并2个有序列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="合并2个有序列表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -527,19 +556,14 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/HuiWen.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/HuiWen.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/MergeLinkList.java</url>
           <line>64</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveDuplicate.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
