@@ -8,9 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveAssignValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/FindStrInStr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveDuplicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,9 +247,9 @@
       <recent name="dang.algorithm.binarytree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveAssignValue">
-    <configuration name="LongestCommonPre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.LongestCommonPre" />
+  <component name="RunManager" selected="Application.FindStrInStr">
+    <configuration name="FindStrInStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.FindStrInStr" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -316,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindStrInStr" />
         <item itemvalue="Application.RemoveAssignValue" />
         <item itemvalue="Application.RemoveDuplicate" />
         <item itemvalue="Application.MergeLinkList" />
         <item itemvalue="Application.ValidBracket" />
-        <item itemvalue="Application.LongestCommonPre" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +376,7 @@
       <workItem from="1649748302029" duration="682000" />
       <workItem from="1650532244514" duration="591000" />
       <workItem from="1650629708584" duration="4121000" />
-      <workItem from="1650679623820" duration="9831000" />
+      <workItem from="1650679623820" duration="16969000" />
     </task>
     <task id="LOCAL-00001" summary="添加两个链表相加并进位算法">
       <created>1564303771818</created>
@@ -456,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650634477577</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="去除给定的与数组中相同值的元素">
+      <created>1650696196446</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1650696196446</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -522,7 +528,8 @@
     <MESSAGE value="添加有效括号判断" />
     <MESSAGE value="合并2个有序列表" />
     <MESSAGE value="去除重复元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除重复元素" />
+    <MESSAGE value="去除给定的与数组中相同值的元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除给定的与数组中相同值的元素" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,6 +578,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveDuplicate.java</url>
           <line>38</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/FindStrInStr.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
