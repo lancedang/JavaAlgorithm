@@ -17,9 +17,11 @@ public class RemoveDuplicate {
         if (nums.length == 1) {
             return 1;
         }
-        int i = 0;
-        int j = 1;
-        while (j < nums.length) { //6)j值走到最后了就替换完了
+
+        int i =0; //i用于描述最终满足条件的元素将要插入到何处的下标索引
+        int j =1; //j用于从前往后遍历数组的指针
+
+        while (j < nums.length) { //6)j值走到最后了就替换完了，遍历的指针不能超过length
             //1)若相邻元素相同，则后面的j递增，目的是：找到第一个大于递增的值
             if (nums[i] == nums[j]) {
                 j++;
