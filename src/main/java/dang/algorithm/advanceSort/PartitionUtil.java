@@ -7,6 +7,16 @@ package dang.algorithm.advanceSort;
  */
 public class PartitionUtil {
 
+    public static void main(String[] args) {
+        int[] array = {18, 30, 17, 22, 1, 4, 2 ,2 , 10};
+
+        quickSort(array, 0, array.length - 1);
+
+        for (int x : array) {
+            System.out.println(x);
+        }
+    }
+
     /**
      * 将任意数组分成以pivot为枢纽左右两部分，左部分小于pivot，右部分大于pivot
      *

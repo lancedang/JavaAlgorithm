@@ -4,6 +4,7 @@ import java.util.LinkedList;
 
 public class PartitionUtil2 {
 
+    //字方法-快排中的一趟排序
     public static int partition(int[] array, int left, int right, int pivot) throws Exception {
 
         int length = array.length;

@@ -1,9 +1,10 @@
-package dang.algorithm.linklist.add2link;
+package dang.algorithm.leecode;
 
 import dang.algorithm.linklist.Link;
 import dang.algorithm.linklist.LinkList;
 
 import javax.naming.LimitExceededException;
+import java.util.*;
 
 /**
  * 合并两个链表：从前往后每个相应节点相加，并进位（超过10）向后加十分位上的值
@@ -95,6 +96,9 @@ public class Add2Link {
 
         LinkList linkList = new LinkList(head);
         linkList.show();
+
+        List<Integer> list = new ArrayList<>();
+
 
 
     }

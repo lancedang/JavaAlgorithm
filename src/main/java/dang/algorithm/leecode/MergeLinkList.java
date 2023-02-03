@@ -71,6 +71,11 @@ class ListNode{
     int val;
     //最关键：知道可以这么用 a.next =
     ListNode next;
+
+    ListNode() {
+
+    }
+
     ListNode(int val) {
         this.val = val;
     }

@@ -8,8 +8,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/FindStrInStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/CommonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/FindLongestSubStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/NumberKLargestItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveLinkedListDaoshuN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/StrLongestHuiwen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/removerepeat/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/removerepeat/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionSortDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/MergeLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/MergeLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/SumInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/SumInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/linklist/add2link/Add2Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/Add2Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/queuestack/StackBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/queuestack/StackBracket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,9 +262,48 @@
       <recent name="dang.algorithm.binarytree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindStrInStr">
-    <configuration name="FindStrInStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.FindStrInStr" />
+  <component name="RunManager" selected="Application.RemoveLinkedListDaoshuN">
+    <configuration name="PartitionSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.advanceSort.PartitionSortDemo" />
+      <module name="JavaAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dang.algorithm.advanceSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.advanceSort.PartitionUtil" />
+      <module name="JavaAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dang.algorithm.advanceSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionUtil3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.advanceSort.PartitionUtil3" />
+      <module name="JavaAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dang.algorithm.advanceSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveLinkedListDaoshuN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.RemoveLinkedListDaoshuN" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -261,47 +315,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.MergeLinkList" />
-      <module name="JavaAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dang.algorithm.leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveAssignValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.RemoveAssignValue" />
-      <module name="JavaAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dang.algorithm.leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.RemoveDuplicate" />
-      <module name="JavaAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dang.algorithm.leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.ValidBracket" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.ThreeSum" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -315,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindStrInStr" />
-        <item itemvalue="Application.RemoveAssignValue" />
-        <item itemvalue="Application.RemoveDuplicate" />
-        <item itemvalue="Application.MergeLinkList" />
-        <item itemvalue="Application.ValidBracket" />
+        <item itemvalue="Application.RemoveLinkedListDaoshuN" />
+        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.PartitionUtil3" />
+        <item itemvalue="Application.PartitionUtil" />
+        <item itemvalue="Application.PartitionSortDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +391,14 @@
       <workItem from="1649748302029" duration="682000" />
       <workItem from="1650532244514" duration="591000" />
       <workItem from="1650629708584" duration="4121000" />
-      <workItem from="1650679623820" duration="16969000" />
+      <workItem from="1650679623820" duration="17272000" />
+      <workItem from="1671268426791" duration="13000" />
+      <workItem from="1673595424146" duration="1594000" />
+      <workItem from="1673943327048" duration="4465000" />
+      <workItem from="1674886327846" duration="6600000" />
+      <workItem from="1674956263682" duration="14117000" />
+      <workItem from="1675216106002" duration="30638000" />
+      <workItem from="1675389922577" duration="1317000" />
     </task>
     <task id="LOCAL-00001" summary="添加两个链表相加并进位算法">
       <created>1564303771818</created>
@@ -462,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650696196446</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="从a字符串中找到b字符串的首个位置">
+      <created>1650705252083</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650705252083</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -529,7 +558,8 @@
     <MESSAGE value="合并2个有序列表" />
     <MESSAGE value="去除重复元素" />
     <MESSAGE value="去除给定的与数组中相同值的元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除给定的与数组中相同值的元素" />
+    <MESSAGE value="从a字符串中找到b字符串的首个位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="从a字符串中找到b字符串的首个位置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -546,7 +576,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionSortDemo.java</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -583,6 +613,41 @@
           <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/FindStrInStr.java</url>
           <line>39</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/removerepeat/Solution.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/SumInArray.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil3.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/StrLongestHuiwen.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil3.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveLinkedListDaoshuN.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveLinkedListDaoshuN.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
