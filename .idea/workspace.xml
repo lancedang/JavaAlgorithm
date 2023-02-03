@@ -8,23 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/CommonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/FindLongestSubStr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/NumberKLargestItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/RemoveLinkedListDaoshuN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/StrLongestHuiwen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/removerepeat/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/removerepeat/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionSortDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionSortDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/MergeLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/MergeLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/SumInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/SumInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/linklist/add2link/Add2Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/Add2Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/queuestack/StackBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/queuestack/StackBracket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/ValidBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/ValidBracket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,20 +247,7 @@
       <recent name="dang.algorithm.binarytree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveLinkedListDaoshuN">
-    <configuration name="PartitionSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.advanceSort.PartitionSortDemo" />
-      <module name="JavaAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dang.algorithm.advanceSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ValidBracket">
     <configuration name="PartitionUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dang.algorithm.advanceSort.PartitionUtil" />
       <module name="JavaAlgorithm" />
@@ -328,13 +300,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.ValidBracket" />
+      <module name="JavaAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dang.algorithm.leecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidBracket" />
         <item itemvalue="Application.RemoveLinkedListDaoshuN" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.PartitionUtil3" />
         <item itemvalue="Application.PartitionUtil" />
-        <item itemvalue="Application.PartitionSortDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +383,7 @@
       <workItem from="1674886327846" duration="6600000" />
       <workItem from="1674956263682" duration="14117000" />
       <workItem from="1675216106002" duration="30638000" />
-      <workItem from="1675389922577" duration="1317000" />
+      <workItem from="1675389922577" duration="5323000" />
     </task>
     <task id="LOCAL-00001" summary="添加两个链表相加并进位算法">
       <created>1564303771818</created>
@@ -491,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650705252083</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="leetcode">
+      <created>1675392545458</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675392545458</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -559,7 +551,8 @@
     <MESSAGE value="去除重复元素" />
     <MESSAGE value="去除给定的与数组中相同值的元素" />
     <MESSAGE value="从a字符串中找到b字符串的首个位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="从a字符串中找到b字符串的首个位置" />
+    <MESSAGE value="leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
