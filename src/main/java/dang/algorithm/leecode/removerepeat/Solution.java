@@ -17,12 +17,13 @@ class Solution {
         n1.next = n2;
         n2.next = n3;
 
-       ListNode delete = delete(n1);
+        //ListNode delete = delete(n1);
+        ListNode delete = deleteDuplicates2(n1);
 
-       //无论如何判断语句delete != null不能写成 delete.next != null
+        //无论如何判断语句delete != null不能写成 delete.next != null
         //这2个判断逻辑不一样，一个是当前delete不为null就打印当前
         //一个是当前的下一个不为null,才打印当前，相对上面，就少打了一次
-       while (delete != null) {
+        while (delete != null) {
             System.out.println(delete.val);
             delete = delete.next;
         }
@@ -31,8 +32,8 @@ class Solution {
 //            System.out.println(delete.val);
 //            delete = delete.next;
 //        } while (delete != null); //循环体里已经向next移动了，
-                                  // 这里判断就不能用delete.next != null来判断了
-                                  // 直接用delete != null来判断
+        // 这里判断就不能用delete.next != null来判断了
+        // 直接用delete != null来判断
     }
 
     public static ListNode delete(ListNode head) {
@@ -82,6 +83,33 @@ class Solution {
             } else {
                 second = second.next;
             }
+        }
+
+        return head;
+    }
+
+    public static ListNode deleteDuplicates2(ListNode head) {
+
+        //step1)咱们2个指针先一块站在head这
+        //curr对second说，second你出发去找和我不一样的的那个节点，找到后停在那
+        //然后我curr指向你second这（跳过中间重复节点）
+
+        //step2)然后，我curr再站到second你那，前面的节点相当于处理成功了，我们俩（curr，second）再从你second
+        //这个地方重复上面步骤
+
+        //
+        ListNode curr = head;
+        ListNode second = head;
+
+        while (second != null) {
+            //最开始两个处于相同节点，second直接跳过了
+            if (second.val == curr.val) {
+                second = second.next;
+            } else {
+                curr.next = second;
+                curr = second;
+            }
+
         }
 
         return head;

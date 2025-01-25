@@ -10,8 +10,5 @@
         <module name="JavaAlgorithm" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="JavaAlgorithm" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

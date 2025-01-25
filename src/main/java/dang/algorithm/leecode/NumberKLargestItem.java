@@ -6,7 +6,8 @@ public class NumberKLargestItem {
         int kLargestItem = getNumberKLargestItem(array, 2);
         System.out.println(kLargestItem);
 
-        int smallestItem = getNumberKSmallestItem(array, 2);
+        //int smallestItem = getNumberKSmallestItem(array, 2);
+        int smallestItem = getNumberKSmallestItem2(array, 5);
         System.out.println(smallestItem);
     }
 
@@ -54,6 +55,30 @@ public class NumberKLargestItem {
 
     }
 
+    public static int getNumberKSmallestItem2(int[] array, int k) {
+        int start = 0;
+        int end = array.length - 1;
+
+        //第k小，第1小：index=0
+
+
+        while (true) {
+            int i = partition2(array, start, end);
+
+            if (k - 1 == i) {
+                return array[i];
+            } else if (k - 1 < i) {
+                //左边继续找
+                end = i - 1;
+            }else {
+                //右边继续找
+                start = i + 1;
+            }
+        }
+
+
+    }
+
     //一次分区可以找到flag元素的下标位置，也就是第k小值元素的位置，k=return+1
     public static int partition(int[] array, int left, int right) {
         //引用复制
@@ -77,5 +102,37 @@ public class NumberKLargestItem {
 
         //这个非常关键：start位置是flag元素下标
         return start;
+    }
+
+    //把start-end区间数据分成2部分，左侧全部小于中间，右侧全部大于中间，故名曰分区
+    public static int partition2(int[] array, int start, int end) {
+        int left = start;
+        int right = end;
+
+        int flag = array[start];
+
+        while (left < right) {
+
+            //先动右边
+            while (left < right && array[right] >= flag) {
+                right--;
+            }
+
+            while (left < right && array[left] <= flag) {
+                left++;
+            }
+
+            //交换一次
+            int temp = array[left];
+            array[left] = array[right];
+            array[right] = temp;
+        }
+
+        //复位
+        array[start] = array[left];
+        array[left] = flag;
+
+        return left;
+
     }
 }

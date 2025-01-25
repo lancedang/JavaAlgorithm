@@ -10,9 +10,13 @@ public class ThreeSum {
     public static void main(String[] args) {
         int[] array = {-1, 0, 1, 2, -1, -4};
 
+        array = new int[]{-1, 0, 1, 2, -1, -4, -2, -3, 3, 0, 4};
+        array = new int[]{-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6};
+
         PartitionUtil3.sort(array, 0, array.length - 1);
         Arrays.stream(array).forEach(System.out::println);
-        List<List<Integer>> sum = find3Sum2(array, 0);
+        //List<List<Integer>> sum = find3Sum2(array, 0);
+        List<List<Integer>> sum = sum2(array, 0);
         System.out.println(sum);
     }
 
@@ -164,6 +168,71 @@ public class ThreeSum {
         nums[start] = pivot;
 
         return start;
+    }
+
+    public static List<List<Integer>> sum2(int[] array, int target) {
+
+        if (array == null || array.length < 3) {
+            return null;
+        }
+
+        int size = array.length;
+
+        List<List<Integer>> list = new ArrayList();
+
+        int i = 0;
+        int j = i + 1;
+        int k = size - 1;
+
+        while (i < size - 2) {
+
+            k = size - 1;
+
+            while (j < k) {
+                int tempSum = array[i] + array[j] + array[k];
+
+                if (tempSum == target) {
+                    List<Integer> tempList = new ArrayList();
+                    tempList.add(array[i]);
+                    tempList.add(array[j]);
+                    tempList.add(array[k]);
+
+                    list.add(tempList);
+
+                    j++;
+                    k--;
+
+                    while (j < k && array[j] == array[j - 1]) {
+                        j++;
+                    }
+
+                    while (j < k && array[k] == array[k + 1]) {
+                        k--;
+                    }
+
+                } else if (tempSum < target) {
+                    j++;
+
+                } else {
+                    k--;
+
+                }
+            }
+
+            i++;
+            ;
+            j = i + 1;
+
+            if (i > 0 && array[i] == array[i - 1]) {
+                i++;
+                ;
+                j = i + 1;
+            }
+
+        }
+
+        return list;
+
     }
 
 
