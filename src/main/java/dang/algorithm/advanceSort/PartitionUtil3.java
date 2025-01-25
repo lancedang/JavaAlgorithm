@@ -19,7 +19,7 @@ public class PartitionUtil3 {
     }
 
     //更新-针对重复元素处理，原来不支持重复元素
-    //一个快排算法：多次分区，一趟分区：多次swap,
+    //一个快排算法：执行多次分区，在一趟分区里：包括多次swap,
     //一趟分区：从左开始-将所有大于flag的放到flag右边，从右开始-将所有小于flag的放到flag左边
     //一次swap:左右2个元素的一次交换，得多次swap之后才能将左边全部小于flag，右边全部大于flag
     public static int partition(int[] array, int left, int right) {

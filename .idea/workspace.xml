@@ -7,24 +7,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/dang/algorithm/binarytree/MySimpleNode.java" line="15" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/DeepLayerVisit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/FindStartEndItemInSortNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/MaxValidSonBracketStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaAlgorithm.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="c7bf30d9-f540-4d60-aca8-39ccabe91ecb" name="Default Changelist" comment="有效括号">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/NumberKLargestItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/NumberKLargestItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/ThreeSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/removerepeat/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/leecode/removerepeat/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/merge/MergeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/merge/MergeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dangdang/JavaAlgorithm/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dangdang/JavaAlgorithm/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dang/algorithm/advanceSort/PartitionUtil3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,9 +121,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="width" value="1938" />
@@ -249,6 +235,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Demo.executor": "Run",
+    "Application.PartitionSortDemo.executor": "Run",
+    "Application.PartitionUtil3.executor": "Run",
+    "Application.PartitionUtil4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/idea-project/JavaAlgorithm",
@@ -265,20 +254,7 @@
       <recent name="dang.algorithm.binarytree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="DeepLayerVisit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.DeepLayerVisit" />
-      <module name="JavaAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dang.algorithm.leecode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PartitionUtil4">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dangdang.JavaAlgorithm.Demo" />
       <module name="JavaAlgorithm" />
@@ -305,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.removerepeat.Solution" />
+    <configuration name="PartitionSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.advanceSort.PartitionSortDemo" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dang.algorithm.leecode.removerepeat.*" />
+          <option name="PATTERN" value="dang.algorithm.advanceSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,12 +294,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dang.algorithm.leecode.ThreeSum" />
+    <configuration name="PartitionUtil3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.advanceSort.PartitionUtil3" />
       <module name="JavaAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dang.algorithm.leecode.*" />
+          <option name="PATTERN" value="dang.algorithm.advanceSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartitionUtil4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dang.algorithm.advanceSort.PartitionUtil4" />
+      <module name="JavaAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dang.algorithm.advanceSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionUtil4" />
+        <item itemvalue="Application.PartitionSortDemo" />
+        <item itemvalue="Application.PartitionUtil3" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.NumberKLargestItem" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.DeepLayerVisit" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -426,6 +415,7 @@
       <workItem from="1679365132571" duration="9001000" />
       <workItem from="1679624541664" duration="1386000" />
       <workItem from="1718286667770" duration="914000" />
+      <workItem from="1737810510468" duration="6166000" />
     </task>
     <task id="LOCAL-00001" summary="添加两个链表相加并进位算法">
       <created>1564303771818</created>
@@ -532,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1675406526511</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="有效括号">
+      <option name="closed" value="true" />
+      <created>1737810586601</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737810586601</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
